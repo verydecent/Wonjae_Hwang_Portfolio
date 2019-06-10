@@ -133,7 +133,7 @@ class App extends Component {
         <h2 className="text-center text-uppercase text-white">About Me</h2>
         <hr className="star-light mb-5"/>
           <p className="lead maxwidth">
-            Hello Everyone. I'm a web developer specializing in Front-End development. My goal is to be always learning and trying to make myself and those around me better! My two favorite technologies to work with are Node.js & React.js. I have 5+ years of customer service experience where I've had opportunities to develop my communication, organizational, and problem-solving skills across teams.
+            Hello Everyone. I'm a web developer specializing in Front-End development! Programming has always interested me because one can create beautiful software from scratch backed with a bit of imagination and a computer! My two favorite technologies to work with are Node.js & React.js. I am growth oriented and I love learning new frameworks on the fly! I have 5+ years of customer service experience where I've had opportunities to develop my communication, organizational, and problem-solving skills across teams.
           </p>
       </div>
     </section>
