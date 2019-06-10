@@ -45,7 +45,7 @@ class App extends Component {
 	      </div>
         
         <div className="text-center mt-4">
-          <a className="btn btn-xl btn-outline-light" href="img/portfolio/resume.pdf" download>
+          <a className="btn btn-xl btn-outline-light" href="img/portfolio/resume_wonjae_hwang.pdf" download>
             <i className="fas fa-download mr-2"></i>
             Download Resume
           </a>
