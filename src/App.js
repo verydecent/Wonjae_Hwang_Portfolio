@@ -37,7 +37,7 @@ class App extends Component {
     
 	    <header className="masthead bg-primary text-white text-center">
 	      <div className="container">
-	        <img className="img-fluid mb-5 d-block mx-auto" src="pf.png" alt="profile"/>
+	        <img className="img-fluid mb-5 d-block mx-auto" src="img/wj_pf.png" alt="profile" style={{ borderRadius: "4%"}}/>
 	        <h1 className="text-uppercase mb-0">Wonjae Hwang</h1>
 	        <hr className="star-light"/>
 	        <h2 className="font-weight-light mb-0">Front End Web Developer</h2><br />
@@ -57,6 +57,8 @@ class App extends Component {
         <h2 className="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
         <hr className="star-dark mb-5"/>
         <div className="row">
+
+          {/* Portfolio Item 1 */}
           <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -64,9 +66,10 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/taco_run.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/chattr.jpg" alt=""/>
             </a>
           </div>
+          {/* Portfolio Item 2 */}
           <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -74,9 +77,10 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/dnd.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/black.jpg" alt=""/>
             </a>
           </div>
+          {/* Portfolio Item 3 */}
           <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -84,10 +88,11 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/spotty.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/black.jpg" alt=""/>
             </a>
           </div>
-          <div className="col-md-6 col-lg-4">
+          {/* Portfolio Item 4 */}
+          {/* <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -96,8 +101,9 @@ class App extends Component {
               </div>
               <img className="img-fluid" src="img/portfolio/interface.png" alt=""/>
             </a>
-          </div>
-          <div className="col-md-6 col-lg-4">
+          </div> */}
+          {/* Portfolio Item 5 */}
+          {/* <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -106,8 +112,9 @@ class App extends Component {
               </div>
               <img className="img-fluid" src="img/portfolio/kitchen.png" alt=""/>
             </a>
-          </div>
-          <div className="col-md-6 col-lg-4">
+          </div> */}
+          {/* Portfolio Item 6 */}
+          {/* <div className="col-md-6 col-lg-4">
             <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -116,7 +123,7 @@ class App extends Component {
               </div>
               <img className="img-fluid" src="img/portfolio/mud.png" alt=""/>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
@@ -179,7 +186,10 @@ class App extends Component {
         <i className="fa fa-chevron-up"></i>
       </a>
     </div>
+    
+    {/* Modals */}
 
+    {/* Modal 1 */}
     <div className="portfolio-modal mfp-hide" id="portfolio-modal-1">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -188,10 +198,14 @@ class App extends Component {
         <div className="container text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h2 className="text-secondary text-uppercase mb-0">Lets Get Tacos</h2>
+              <h2 className="text-secondary text-uppercase mb-0">Chattr</h2>
               <hr className="star-dark mb-5"/>
-              <iframe className="youtubeVid" src="https://www.youtube.com/embed/dVPt9IrXroA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p className="mb-5">Event organizer App that lets you interact with the Yelp Api and the Google Api to look up your favorite locations to get tacos at, invite friends, and schedule meet-ups. <a href="https://taco-run-c453f.firebaseapp.com/">Website</a>, <a href="https://github.com/Lambda-School-Labs/labs10-taco-run"> Github</a>, <a href="https://trello.com/b/CaLMkz0e/labs10-taco-run">Trello</a></p>
+              <p className="mb-5">
+                Chattr is a live chat tool for B2C and B2B companies to connect with visitors to their website. The product includes a dashboard for representatives to manage and engage in conversations, and a customer chat widget deployed with a code snippet. <br/>
+                <a href="">Website</a>, 
+                <a href=""> Github</a>, 
+                <a href="">Trello</a>
+              </p>
               <a className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i className="fa fa-close"></i>
                 Close Project</a>
@@ -200,7 +214,8 @@ class App extends Component {
         </div>
       </div>
     </div>
-
+    
+    {/* Modal 2 */}
     <div className="portfolio-modal mfp-hide" id="portfolio-modal-2">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -209,10 +224,13 @@ class App extends Component {
         <div className="container text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h2 className="text-secondary text-uppercase mb-0">Encounter Generator</h2>
+              <h2 className="text-secondary text-uppercase mb-0">Coming Soon</h2>
               <hr className="star-dark mb-5"/>
-              <iframe className="youtubeVid" src="https://www.youtube.com/embed/qlZkw0JaVjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p className="mb-5">5th edition dungeons and dragons Encounter Generator. This App will take was made with React. It takes input, filters, and generates the appropriate number of monsters given the party and difficulty. <a href="https://dungeon-helper.com/">Website</a>, <a href="https://github.com/lanners-marshall/dnd-encounter-generator"> Github</a>, <a href="https://trello.com/b/jaml8MNR/dndgenerator">Trello</a></p>
+              <p className="mb-5">
+                ----- <br/>
+                <a href="">Website</a>,
+                <a href=""> Github</a>,
+                <a href="">Trello</a></p>
               <a className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i className="fa fa-close"></i>
                 Close Project</a>
@@ -221,6 +239,7 @@ class App extends Component {
         </div>
       </div>
     </div>
+    {/* Modal 3 */}
     <div className="portfolio-modal mfp-hide" id="portfolio-modal-3">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -229,10 +248,14 @@ class App extends Component {
         <div className="container text-center">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h2 className="text-secondary text-uppercase mb-0">Spotty</h2>
+              <h2 className="text-secondary text-uppercase mb-0">Coming Soon</h2>
               <hr className="star-dark mb-5"/>
-              <iframe className="youtubeVid" src="https://www.youtube.com/embed/m7SGsEVHVuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p className="mb-5">This is a React App that interacts with the Spotify Api. It can be used to play music from your playlists, look up music and play it, build new tracks, and post those new tracks to your Spotify account. <a href="https://react-spotty.herokuapp.com/">Website</a>, <a href="https://github.com/lanners-marshall/spotty">Github</a></p>
+
+              <p className="mb-5">
+                ----- <br/>
+                <a href="">Website</a>, 
+                <a href="">Github</a>
+              </p>
               <a className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i className="fa fa-close"></i>
                 Close Project</a>
@@ -241,7 +264,8 @@ class App extends Component {
         </div>
       </div>
     </div>
-    <div className="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    {/* Modal 4 */}
+    {/* <div className="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i className="fa fa-3x fa-times"></i>
@@ -260,8 +284,9 @@ class App extends Component {
           </div>
         </div>
       </div>
-    </div>
-    <div className="portfolio-modal mfp-hide" id="portfolio-modal-5">
+    </div> */}
+    {/* Modal 5 */}
+    {/* <div className="portfolio-modal mfp-hide" id="portfolio-modal-5">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i className="fa fa-3x fa-times"></i>
@@ -280,8 +305,9 @@ class App extends Component {
           </div>
         </div>
       </div>
-    </div>
-    <div className="portfolio-modal mfp-hide" id="portfolio-modal-6">
+    </div> */}
+    {/* Modal 6 */}
+    {/* <div className="portfolio-modal mfp-hide" id="portfolio-modal-6">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i className="fa fa-3x fa-times"></i>
@@ -301,7 +327,7 @@ class App extends Component {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
    </div>
     );
   }
