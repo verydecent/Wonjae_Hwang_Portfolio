@@ -1,4 +1,0 @@
-[build]
-base = "Wonjae_Hwang_Portfolio/"
-publish = "Wonjae_Hwang_Portfolio/build/"
-command = "yarn build"
