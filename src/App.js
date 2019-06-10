@@ -135,6 +135,7 @@ class App extends Component {
           <p className="lead maxwidth">
             Hello Everyone. I'm a web developer specializing in Front-End development! Programming has always interested me because one can create beautiful software from scratch backed with a bit of imagination and a computer! My two favorite technologies to work with are Node.js & React.js. I am growth oriented and I love learning new frameworks on the fly! I have 5+ years of customer service experience where I've had opportunities to develop my communication, organizational, and problem-solving skills across teams.
             <br/>
+            <br/>
             My goal is to understand customer needs in the broad ranges of industries that need software solutions. I hope to add experience on my journey as a software developer and I hope learn the successful traits of what makes a company successful!
           </p>
       </div>
