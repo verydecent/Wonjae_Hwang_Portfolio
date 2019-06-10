@@ -1,3 +1,4 @@
-[build.environment]
-  NODE_VERSION = "11.9.0"
-  NPM_VERSION = "6.5.0"
+[build]
+base = "Wonjae_Hwang_Portfolio/"
+publish = "Wonjae_Hwang_Portfolio/build/"
+command = "yarn build"
