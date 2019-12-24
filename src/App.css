@@ -1,117 +1,131 @@
-.custom-border {
-  border: solid black 1px;
+
+/* Mobile */
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0B2D47;
 }
 
-.awardsPic {
-  border-radius: 14px;
-}
-
-.youtubeVid {
-  max-width:580px;
+.card-container {
   width: 100%;
-  height: 380px;
+  height: 100%;
+  padding-top: 32vh;
 }
 
-.whiteText {
-  color: white;
-}
-
-.whiteText:hover {
-  color:white;
-}
-
-.maxwidth {
-  max-width: 650px;
-  margin: 0 auto 30px auto;
-}
-
-.email-form > textarea{
-  max-width: 550px;
+.card {
+  background-color: #EED36A;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 320px;
+  height: auto;
   border-radius: 4px;
-  padding: 10px 0;
-  font-size: 1.2rem;
-  margin: 0 auto;
-  width: 100%;
-  margin-bottom: 20px;
-  height: 250px;
-  border-style: ridge;
+  padding: 18px 30px;
 }
 
-.email-form > textarea:focus {outline:none;}
+.card-title {
+  color: #1F2124;
+  border-bottom: 2px solid #1F2124;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif !important;
+}
 
-.email-form > a {
-  border: solid grey 2px;
-  background-color: grey;
-  font-size: 1.6rem;
-  width: 250px;
-  margin: 0 auto;
+.card-list {
+  list-style: inside;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #1F2124;
+}
+
+.card-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-list-item:hover > a {
+  color: #FFF;
+}
+
+.footer {
   margin-top: 10px;
-  padding: 1%;
-  text-align: center;
-  color: #e3e1e1;
-  background-color:#2c3e50;
+  font-size: 8px;
+  color: #1F2124;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 3px;
 }
 
-.email-form > a:hover {
-  background-color: #e3e1e1;
-  color:#2c3e50;
+/* Desktop */
+
+
+/* Globals */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+a {
   text-decoration: none;
 }
 
-.email-form > input {
-  max-width: 450px;
-  max-width: 550px;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  padding: 10px 0;
-  font-size: 1.2rem;
+a:visited {
+  color: #1F2124;
 }
 
-.email-form > input:focus {outline:none;}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-.outline {
-  max-width: 650px;
-  padding: 3%;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 2px 3px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 2px 3px 4px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 2px 3px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-.email-form {
-  padding-top: 20px;
-  max-width: 700px;
-  margin: 0 auto;
-  border-radius: 2px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-
-@media (max-width: 700px){
-  .email-form {
-    margin: 0 auto;
-  }
-  .email-form > input {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-  .email-form > textarea{
-    max-width: 600px;
-  }
-  .outline {
-    border-radius: 0;
-  }
-  .youtubeVid {
-    height: 255px;
-  }
+body {
+	line-height: 1;
 }
-
-@media (max-width: 700px){
-  .email-form > textarea{
-    margin-bottom: 20px;
-  }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
