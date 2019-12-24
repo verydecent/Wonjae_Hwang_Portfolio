@@ -9,10 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-
         <div className="card-container">
-
-
           <div className="card">
             <h1 className="card-title">Wonjae Hwang</h1>
             <ul className="card-list">
@@ -24,10 +21,7 @@ class App extends Component {
               EST. 2020
             </div>
           </div>
-
-
         </div>
-
       </div>
     );
   }
