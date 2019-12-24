@@ -16,7 +16,8 @@
 }
 
 .card {
-  background-color: #EED36A;
+  /* background-color: #EED36A; */
+  background-color: rgb(229, 208, 125);
   margin: 0 auto;
   width: 80%;
   max-width: 320px;
