@@ -4,7 +4,9 @@
 .main {
   width: 100vw;
   height: 100vh;
-  background-color: #0B2D47;
+  /* background-color: #36B1BB; */
+  /* background-color: #0B2D47; */
+  background-color: rgb(93, 129, 157);
 }
 
 .card-container {
