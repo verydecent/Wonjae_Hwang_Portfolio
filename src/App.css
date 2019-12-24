@@ -19,8 +19,8 @@
   /* background-color: #EED36A; */
   background-color: rgb(229, 208, 125);
   margin: 0 auto;
-  width: 80%;
-  max-width: 320px;
+  width: 320px;
+  max-width: 90%;
   height: auto;
   border-radius: 4px;
   padding: 18px 28px;
@@ -58,16 +58,13 @@
 }
 
 .footer {
-  margin-top: 10px;
+  margin-top: 28px;
   font-size: 8px;
   color: #1F2124;
   font-weight: 500;
   text-align: right;
   letter-spacing: 3px;
 }
-
-/* Desktop */
-
 
 /* Globals */
 
