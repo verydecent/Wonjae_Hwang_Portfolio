@@ -16,14 +16,15 @@
 }
 
 .card {
-  /* background-color: #EED36A; */
   background-color: rgb(229, 208, 125);
   margin: 0 auto;
   width: 320px;
   max-width: 90%;
   height: auto;
+  min-height: 220px;
   border-radius: 4px;
   padding: 18px 28px;
+  border: 2px solid #0B2D47;
 }
 
 .card-title {
@@ -45,15 +46,14 @@
   flex-direction: column;
 }
 
+.card-content-container {
+  min-height: 90px;
+}
+
 .card-list-item {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.card-list-item:hover > a {
-  color: #FFF;
 }
 
 .footer {
@@ -72,12 +72,34 @@
   font-family: 'Roboto', sans-serif !important;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+table, tr, th {
+  /* border: 1px solid #1F2124 !important; */
+}
+
+th {
+  padding: 6px 0 !important;
+}
+
 a {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 a:visited {
   color: #0000FF;
+}
+
+a:hover {
+  color: #fff;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
