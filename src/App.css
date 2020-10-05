@@ -8,9 +8,7 @@
 .main {
   width: 100vw;
   height: 100vh;
-  /* background-color: #36B1BB; */
-  /* background-color: #0B2D47; */
-  background-color: rgb(93, 129, 157);
+  background-color: #BDD4E7;
 }
 
 .card-container {
@@ -20,7 +18,7 @@
 }
 
 .card {
-  background-color: rgb(229, 208, 125);
+  background-color: #F9F7F3;
   margin: 0 auto;
   width: 420px;
   max-width: 90%;
