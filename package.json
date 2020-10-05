@@ -8,10 +8,10 @@
     "react-dom": "^16.8.6",
     "react-mail-form": "^1.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^3.4.3"
   },
   "devDependencies": {
-    "browser-sync": "2.26.7",
+    "browser-sync": "^2.26.12",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "6.1.0",
     "gulp-clean-css": "4.2.0",

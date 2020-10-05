@@ -31,16 +31,11 @@ class App extends Component {
                 <div className="card-content-container">
                   <table>
                     <tr>
-                      <th>Name</th>
                       <th>Wonjae Hwang</th>
                     </tr>
                     <tr>
-                      <th>Education</th>
-                      <th>Lambda School 2019</th>
-                    </tr>
-                    <tr>
-                      <th>Hobbies</th>
-                      <th>Cooking, Running, Biking</th>
+                      <th>I enjoy creating full stack apps with React and Node./th>
+                      <th>I'm always looking for new ways to write clean code</th>
                     </tr>
                   </table>
                 </div>
@@ -65,12 +60,12 @@ class App extends Component {
                 <div className="card-content-container">
                   <table>
                     <tr>
-                      <th>Area</th>
-                      <th>California</th>
+                      <th></th>
+                      <th></th>
                     </tr>
                     <tr>
                       <th>Email</th>
-                      <th>wnjhwng@gmail.com</th>
+                      <th>wonjae.dev@gmail.com</th>
                     </tr>
                   </table>
                 </div>
