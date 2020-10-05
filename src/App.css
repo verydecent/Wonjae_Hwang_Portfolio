@@ -1,6 +1,10 @@
 
 /* Mobile */
 
+.paragraph {
+  line-height: 1.5;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -18,7 +22,7 @@
 .card {
   background-color: rgb(229, 208, 125);
   margin: 0 auto;
-  width: 320px;
+  width: 420px;
   max-width: 90%;
   height: auto;
   min-height: 220px;

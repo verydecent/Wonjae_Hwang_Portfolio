@@ -27,45 +27,49 @@ class App extends Component {
           <Route
             path="/about"
             render={() =>
-              <Card title="About" footer={<Link to="/">Back</Link>}>
+              <Card title="Wonjae Hwang" footer={<Link to="/">Back</Link>}>
                 <div className="card-content-container">
-                  <table>
-                    <tr>
-                      <th>Wonjae Hwang</th>
-                    </tr>
-                    <tr>
-                      <th>I enjoy creating full stack apps with React and Node./th>
-                      <th>I'm always looking for new ways to write clean code</th>
-                    </tr>
-                  </table>
+                      <p className='paragraph'>Hi. I'm a JavaScript engineer in Los Angeles, California.
+                      I create full stack applications with React and Node, keeping usability and maintainability in mind.
+                      I'm always looking for new ways to write clean code.
+                      I prefer simplicity over complexity.</p>
                 </div>
               </Card>}
           />
           <Route
             path="/portfolio"
             render={() =>
-              <Card title="Portfolio" footer={<Link to="/">Back</Link>}>
+              <Card title="My Work" footer={<Link to="/">Back</Link>}>
                 <ul className="card-list">
-                  <h1 style={{ textAlign: 'center', marginBottom: '8px', color: 'orange', fontWeight: 500, fontSize: '28px' }}>COMING SOON</h1>
-                  <li className="card-list-item"><a href="/">Dating App / Github</a></li>
-                  <li className="card-list-item"><a href="/">Crypto Trading Bot / Github</a></li>
-                  <li className="card-list-item"><a href="/">Fashion Mood Board / Github</a></li>
+                  <li className="card-list-item">
+                    DarkPool - <a href='' target='_blank'>Live</a> / <a href='https://github.com/verydecent/dark-pool' target='_blank'>GitHub</a>
+                    <div>
+                      Graph based Scheduling To-Do Application
+                    </div>
+                  </li>
+                  <li className="card-list-item">
+                    Grailed Clone - <a href='https://grailedclone.netlify.com' target='_blank'>Live</a> / <a href='https://github.com/verydecent/grailed-clone/tree/master/grailed-clone' target='_blank'>GitHub</a>
+                    <div>
+                      Fashion E-Commerce Platform
+                    </div>
+                  </li>
                 </ul>
               </Card>}
           />
           <Route
             path="/contact"
             render={() =>
-              <Card title="Contact" footer={<Link to="/">Back</Link>}>
+              <Card title="Find Me" footer={<Link to="/">Back</Link>}>
                 <div className="card-content-container">
                   <table>
                     <tr>
-                      <th></th>
-                      <th></th>
+                      <th><a href=''>wonjae.dev@gmail.com</a></th>
                     </tr>
                     <tr>
-                      <th>Email</th>
-                      <th>wonjae.dev@gmail.com</th>
+                      <th><a targt='_blank' href='https://github.com/verydecent'>GitHub</a></th>
+                    </tr>
+                    <tr>
+                      <th><a target='_blank' href='https://www.linkedin.com/in/wonjaehwang/'>LinkedIn</a></th>
                     </tr>
                   </table>
                 </div>
