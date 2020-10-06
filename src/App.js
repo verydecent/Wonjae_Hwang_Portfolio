@@ -29,9 +29,9 @@ class App extends Component {
             render={() =>
               <Card title="Wonjae Hwang" footer={<Link to="/">Back</Link>}>
                 <div className="card-content-container">
-                      <p className='paragraph'>Hi. I'm a JavaScript engineer in Los Angeles, California.
-                      I create full stack applications with React and Node, keeping usability and maintainability in mind.
-                      I'm always looking for new ways to write clean code.
+                  <p className='paragraph'>Hi. I'm a JavaScript engineer in Los Angeles, California.
+                  I create full stack applications with React and Node, keeping usability and maintainability in mind.
+                  I'm always looking for new ways to write clean code.
                       I prefer simplicity over complexity.</p>
                 </div>
               </Card>}
@@ -42,7 +42,7 @@ class App extends Component {
               <Card title="My Work" footer={<Link to="/">Back</Link>}>
                 <ul className="card-list">
                   <li className="card-list-item">
-                    DarkPool - <a href='' target='_blank'>Live</a> / <a href='https://github.com/verydecent/dark-pool' target='_blank'>GitHub</a>
+                    DarkPool - <a href='https://darkpool.netlify.com' target='_blank'>Live</a> / <a href='https://github.com/verydecent/dark-pool' target='_blank'>GitHub</a>
                     <div>
                       Graph based Scheduling To-Do Application
                     </div>
